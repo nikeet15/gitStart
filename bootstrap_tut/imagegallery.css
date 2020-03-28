@@ -1,0 +1,31 @@
+body{
+	padding: 70px;
+}
+
+.jumbotron{
+	color: #2c3e50;
+	background-color: #ecf0f1;
+}
+
+#jumbo{
+	font-size: 65px;
+}
+
+#para{
+	font-size: 20px;
+}
+
+.backgr{
+	background-color: #2c3e50;
+}
+
+.img-thumbnail{
+	margin-bottom: 20px;
+}
+
+#br { 
+    /*text-align: right;*/
+    position: absolute; 
+    font-size: 20px               
+                              
+} 
