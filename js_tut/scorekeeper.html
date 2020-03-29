@@ -3,18 +3,24 @@
 <head>
 	<title>Score Keeper</title>
 	<link rel="stylesheet" type="text/css" href="scorekeeper.css">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </head>
-<body>
+<body class= "bodycolor">
 
-<h1><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
 
-<p>Playing to:<span id="Displaylimit">5</span></p>
+	<h1><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
 
-<input type="number">
-<button id="p1">Player One</button>
-<button id="p2">Player Two</button>
-<button id="reset">Reset</button>
+	<p>Playing to: <span id="Displaylimit">5</span></p>
 
-<script type="text/javascript" src="scorekeeper.js"></script>
+	<input type="number">
+	<button id="p1" class="btnmy">Player One</button>
+	<button id="p2" class="btnmy">Player Two</button>
+	<button id="reset" class="btnmy">Reset</button>
+
+	<script type="text/javascript" src="scorekeeper.js"></script>
 </body>
 </html>
