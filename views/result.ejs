@@ -1,0 +1,13 @@
+<%- include ("partials/header") %>
+<!--new way to include footer in video old method was given which doesn't works-->
+
+<div class=container></div>
+<h1>Movie List matching with: <%= b %></h1>
+<ul>
+    <%a.Search.forEach(function(movie){ %>
+        <li><%= movie.Title %></li>
+    <% }) %>
+
+</ul>
+</div>
+<%- include ("partials/footer") %>
