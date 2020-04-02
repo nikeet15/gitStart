@@ -23,6 +23,7 @@ app.get("/", function(req, res){
     res.render("index");
 });
 
+
 app.post("/result",function(req,res){
     var r= req.body.movie;
     console.log(typeof(r));
