@@ -1,0 +1,12 @@
+<%- include ("partials/header") %>    <!--new way to include footer in video old method was given which doesn't works-->
+
+<div class=container>
+<h2>Enter name of the movie</h2>
+<form action="/result" method="post">
+    <!--on pressing button we go to localhost:3000/addfriend first from there -->
+    <input text="button" name="movie" placeholder="enter name">
+    <!--we are redirected to /friends-->
+    <button>submit</button>
+</form>
+</div>
+<%- include ("partials/footer") %>
